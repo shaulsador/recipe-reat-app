@@ -1,0 +1,15 @@
+.item {
+    border-radius: 30px;
+    box-shadow: rgb(66, 64, 64);
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}

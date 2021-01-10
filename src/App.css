@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: lightpink;
+  font-weight: bold;
+}
+
+form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border-color: #d4fc79;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+  margin-right: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border-color: aqua;
+  color: lightsalmon;
+  font-size: larger;
+  font-weight: bold;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.recipe {
+  display: grid;
+  /* overflow: hidden; */
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 1fr; */
+  gap: 20px;
+  margin: 15px;
+}
